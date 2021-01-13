@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ishaan.basicapp">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BasicApp">
+        <activity android:name=".json2" />
+        <activity android:name=".viewProfile" />
+        <activity
+            android:name=".navdrwmenu"
+            android:theme="@style/Theme.BasicApp.NoActionBar" />
+        <activity android:name=".Call" />
+        <activity android:name=".smssend" />
+        <activity android:name=".Tabact" />
+        <activity android:name=".Dialogact" />
+        <activity android:name=".list_view" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Slpash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

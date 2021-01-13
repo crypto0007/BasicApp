@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Setting"
+    android:id="@+id/set"/>
+
+    <item android:title="Logout"
+        android:onClick="logout"
+        android:id="@+id/lo"/>
+
+    <item android:id="@+id/del"
+        android:onClick="del"
+        android:title="Delete Profile"
+        />
+
+</menu>

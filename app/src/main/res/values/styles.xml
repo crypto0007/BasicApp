@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mytool">
+        <item name="android:maxHeight">@dimen/abc_action_bar_default_height_material</item>
+
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+    </style>
+
+    <color name="blue">#0F8EF3</color>
+    <string name="Setting">Settings</string>
+</resources>

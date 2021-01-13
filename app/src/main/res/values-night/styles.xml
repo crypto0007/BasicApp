@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mytool">mytool</style>
+
+    <style name="mypopup">mypopup</style>
+
+    <string name="Setting">Settings</string>
+</resources>
